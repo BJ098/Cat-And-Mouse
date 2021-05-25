@@ -4,15 +4,15 @@ var mouse,mouse1_image,mouse_ani,mouse4_ani;
 
 function preload() {
     //load the images here
-    cat1_image = loadImage("images/cat1.png");
-    cat_ani = loadAnimation("images/cat2.png","images/cat3.png");
-    cat4_ani = loadAnimation("images/cat4.png");
+    cat1_image = loadImage("cat1.png");
+    cat_ani = loadAnimation("cat2.png","cat3.png");
+    cat4_ani = loadAnimation("cat4.png");
 
-    ground_image = loadImage("images/garden.png");
+    ground_image = loadImage("garden.png");
 
-    mouse1_image = loadImage("images/mouse1.png");
-    mouse_ani = loadAnimation("images/mouse2.png","images/mouse3.png");
-    mouse4_ani = loadAnimation("images/mouse4.png");
+    mouse1_image = loadImage("mouse1.png");
+    mouse_ani = loadAnimation("mouse2.png","mouse3.png");
+    mouse4_ani = loadAnimation("mouse4.png");
 }
 
 function setup(){
